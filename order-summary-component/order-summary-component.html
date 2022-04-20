@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Frontend Mentor | Order summary card</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet" />
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      body {
+        font-family: "Red Hat Display", sans-serif;
+      }
+    </style>
+  </head>
+  <body class="bg-[#e0e8ff] flex-col flex items-center justify-center h-[100vh]">
+    <div class="card w-[347px] sm:w-[420px] bg-white rounded-2xl shadow-xl">
+      <img src="/images/illustration-hero.svg" class="rounded-t-2xl" alt="Hero" />
+      <div class="p-7 sm:p-9">
+        <h3 class="text-2xl text-center pb-4 font-[900] text-[#1f2f56]">Order Summary</h3>
+        <p class="text-[#7280a7] text-center text-[16px] px-2">You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
+        <div class="bg-[#f5f7ff] rounded-xl flex place-content-between items-center p-4 my-6">
+          <div class="flex items-center">
+            <img class="" src="/images/icon-music.svg" alt="" />
+            <div class="ml-3">
+              <p class="text-[#1f2f56] font-[900] text-sm">Annual Plan</p>
+              <p class="text-[#7280a7] text-sm">$59.99/year</p>
+            </div>
+          </div>
+          <a href=""><span class="text-[#3829e0] font-bold underline text-sm hover:text-[#766CF1] transition">Change</span></a>
+        </div>
+        <button class="bg-[#3829e0] w-full p-3 text-white font-bold rounded-xl shadow-[#3829e048] shadow-xl text-sm hover:bg-[#766CF1] transition">Proceed to Payment</button>
+        <button class="w-full mt-5 text-center font-bold text-[#7280a7] text-sm hover:text-[#1f2f56] transition" href="#">Cancel Order</button>
+      </div>
+    </div>
+    <div class="text-slate-600 font-medium text-xs py-6">Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="https://haghest.my.id?ref=frontendmentor">Haghest</a>.</div>
+  </body>
+</html>
